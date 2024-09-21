@@ -1,18 +1,20 @@
 from setuptools import setup, find_packages
 from pathlib import Path
 
-with open("README.md", "r") as fh:
-    long_description = fh.read()
+# Ensure to read the README.md in UTF-8 encoding
+with open("README.md", "r", encoding="utf-8") as f:
+    long_description = f.read()
 
 setup(
     name='firebase-populator',
-    version='0.1.0',
-    author='Dominique Desert',
-    author_email='dominiquedesertb@gmail.com',
-    packages=find_packages(),
-    install_requires=[
-        'firebase-admin',  # This will ensure firebase-admin is installed
-    ],
+    version='0.1.2',
     long_description=long_description,
     long_description_content_type="text/markdown",
+    url="https://github.com/dominiquedes/firebase_populator",
+    author="Dominique Desert",
+    author_email="dominiquedesertb@gmail.com",
+    packages=find_packages(),
+    install_requires=[
+        'firebase-admin',
+    ],
 )
