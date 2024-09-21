@@ -1,9 +1,0 @@
-README.md
-setup.py
-firebase_populator/__init__.py
-firebase_populator/firebase_populator.py
-firebase_populator.egg-info/PKG-INFO
-firebase_populator.egg-info/SOURCES.txt
-firebase_populator.egg-info/dependency_links.txt
-firebase_populator.egg-info/requires.txt
-firebase_populator.egg-info/top_level.txt
